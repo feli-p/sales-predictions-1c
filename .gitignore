@@ -4,7 +4,7 @@ __pycache__/
 
 
 # Jupyter Lab 
-*/.ipynb_checkpoints/*
+.ipynb_checkpoints/
 
 
 # Virtual environments
@@ -14,3 +14,4 @@ __pycache__/
 # Data
 *.zip
 data/
+logs/
