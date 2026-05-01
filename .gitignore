@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+
+
+# Jupyter Lab 
+.ipynb_checkpoints/
+
+
+# Virtual environments
+.venv
+
+
+# Data
+*.zip
+data/
+logs/
