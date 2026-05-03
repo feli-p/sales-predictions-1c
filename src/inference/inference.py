@@ -18,7 +18,7 @@ from src.common.logging_utils import setup_logger
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Batch inference: generate submission.csv")
-    parser.add_argument("--model-path", type=str, default="artifacts/model.joblib")
+    parser.add_argument("--model-path", type=str, default="artifacts/models/model.joblib")
     parser.add_argument("--inference-dir", type=str, default="data/inference")
     parser.add_argument("--output-path", type=str, default="data/predictions/submission.csv")
     parser.add_argument("--clip-min", type=float, default=0.0)
