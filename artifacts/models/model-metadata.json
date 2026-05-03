@@ -1,0 +1,15 @@
+{
+    "feature_columns": [
+        "shop_id",
+        "item_id",
+        "item_category_id",
+        "month",
+        "lag1_cnt",
+        "lag12_cnt",
+        "avg_price"
+    ],
+    "clip_min": 0,
+    "clip_max": 20,
+    "alpha": 100000.0,
+    "rmse_valid": 2.301336783878165
+}
