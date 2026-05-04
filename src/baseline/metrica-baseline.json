@@ -1,0 +1,5 @@
+{
+    "model_name": "Modelo Naive (Lag-1)",
+    "rmse": 2.8681169700993867,
+    "description": "Predicci\u00f3n que copia las ventass del mes anterior."
+}
