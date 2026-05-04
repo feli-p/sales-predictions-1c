@@ -69,3 +69,15 @@ En el siguiente diagrama de relación-entidad se muestran los campos y tipos de 
             ├── __init__.py
             └── test_inference.py        
 ```
+
+## Cómo ejecutar el código para hacer pruebas locales
+**Sincronizar uv**
+```
+uv sync
+```
+
+**Ejecutar un submódulo de src**
+```
+uv run python -m src.<nombre-submódulo>
+```
+
