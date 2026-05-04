@@ -38,7 +38,6 @@ def main():
     args = parse_args()
 
     session = boto3.Session(region_name=AWS_REGION)
-    logger.info
 
     # En un futuro los archivos deberán obtenerse en la bronze layer en S3
     project_root = Path(__file__).resolve().parents[2]
@@ -93,7 +92,7 @@ def main():
         mode="overwrite",
         boto3_session=session,
     )
-    logger.info("\t Archivo escrito: %s", len(result["paths"]))
+    logger.info("\t Archivos escritos: %s", len(result["paths"]))
 
     result = wr.s3.to_parquet(
         df=df_shops,
@@ -104,7 +103,7 @@ def main():
         mode="overwrite",
         boto3_session=session,
     )
-    logger.info("\t Archivo escrito: %s", len(result["paths"]))
+    logger.info("\t Archivos escritos: %s", len(result["paths"]))
 
     result = wr.s3.to_parquet(
         df=df_items,
@@ -115,7 +114,7 @@ def main():
         mode="overwrite",
         boto3_session=session,
     )
-    logger.info("\t Archivo escrito: %s", len(result["paths"]))
+    logger.info("\t Archivos escritos: %s", len(result["paths"]))
 
     result = wr.s3.to_parquet(
         df=df_categories,
@@ -126,7 +125,9 @@ def main():
         mode="overwrite",
         boto3_session=session,
     )
-    logger.info("\t Archivo escrito: %s", len(result["paths"]))
+    logger.info("\t Archivos escritos: %s", len(result["paths"]))
+
+    logger.info("ETL finalizado...")
 
 
 if __name__ == "__main__":
