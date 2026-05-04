@@ -22,9 +22,7 @@ El **Data Lake** almacena todos los datos históricos de ventas, así como infor
 
 Por el momento, con una primera transformación y validación de los datos nos es suficiente por lo que no se incluye en el diseño una capa Gold.
 
-```{mermaid}
-%%| fig-width: 7
-%%| fig-height: 9
+```mermaid
 %%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#e3f2fd','primaryTextColor':'#000','primaryBorderColor':'#1565c0','lineColor':'#546e7a'}}}%%
 graph TB
     subgraph S3["Amazon S3 — Data Lake"]
