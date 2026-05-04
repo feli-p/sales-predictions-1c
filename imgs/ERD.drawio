@@ -212,7 +212,7 @@
             <mxRectangle height="30" width="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VvP1VOjObX76H212zHg8-7" parent="sUP_E7vITrO-UQ7rnXPg-45" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" value="int" vertex="1">
+        <mxCell id="VvP1VOjObX76H212zHg8-7" parent="sUP_E7vITrO-UQ7rnXPg-45" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" value="varchar" vertex="1">
           <mxGeometry height="30" width="80" x="170" as="geometry">
             <mxRectangle height="30" width="80" as="alternateBounds" />
           </mxGeometry>

@@ -5,6 +5,8 @@ __pycache__/
 
 # Jupyter Lab 
 .ipynb_checkpoints/
+# Hide dev notebooks
+notebooks/
 
 
 # Virtual environments
